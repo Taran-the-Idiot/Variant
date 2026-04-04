@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Submisssion Requirements
+# Variant
 
-Every hack caps submission should fulfill the following requirements
+Welcome to Variant! The ysws
 
  - [ ] eats a potato

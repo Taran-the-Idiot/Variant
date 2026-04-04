@@ -3,6 +3,31 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import 'font-awesome/css/font-awesome.min.css';
+
+
+.header-github-link:before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3 the-github-svg-path %3C/svg%3E");
+}
+
+/* Alternatively using FontAwesome */
+.header-github-link::before {
+  content: "\f09b"; /* FontAwesome GitHub Icon */
+  font-family: FontAwesome;
+  font-size: 20px;
+}
+
+html[data-theme='dark'] .header-github-link::before {
+  color: #fff;
+}
+
+
+
 
 /* You can override the default Infima variables here. */
 :root {

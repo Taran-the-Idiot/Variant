@@ -71,7 +71,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'workySidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Tutorials',
         },
         {
           href: 'https://github.com/Overlord-Runt/Variant', // repo link
@@ -91,7 +91,7 @@ const config: Config = {
               to: '/docs/How-To-Start/intro', // path to the doc
             },
             {
-              label: 'Tutorial', // replace with title of the button thing
+              label: 'Tutorials', // replace with title of the button thing
               to: '/docs/Tutorials/intro', // path to the doc
             },
           ],

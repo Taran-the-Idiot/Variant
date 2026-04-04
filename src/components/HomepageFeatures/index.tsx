@@ -11,20 +11,20 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Design Your caps',
+    title: 'Come up with an idea!',
     Svg: '/img/design.png',
     description: (
       <>
-        Make designs and model them in CAD software!
+        Think of a cool hardware project and give it a gimmick!
       </>
     ),
   },
   {
-    title: 'Make a Repo!',
+    title: 'Make it!',
     Svg: '/img/repo.png',
     description: (
       <>
-        Make a Github Repo with your designs as well as a <a href="/docs/Requirements/steps/journal">journal</a> of your process!
+        Follow our guides to make your project, and get help from the community if you need it!
       </>
     ),
   },
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Submit your caps here when you are done!
+        Submit your project <a href="/docs/How-To-Start/submit" target="_blank" rel="noopener noreferrer">here</a> and profit!
       </>
     ),
   },

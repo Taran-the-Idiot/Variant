@@ -20,8 +20,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Tutorial/intro">     
-            Learn how to make your own Hack Caps!
+            to="/docs/How-To-Start/intro">     
+            Get Started!
           </Link>  
         </div>
       </div>
@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Welcome to Hack Caps!`}
-      description="YSWS where you make your own custom Keyboard Keycaps!">
+      title={`Welcome to Variant!`}
+      description="Make a hardware project with a gimmick, get funding to make it!">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

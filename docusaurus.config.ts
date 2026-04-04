@@ -65,7 +65,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Requirements',
+          label: 'How-To-Start',
         },
         {  // copy for new section thingies
           type: 'docSidebar',
@@ -88,11 +88,11 @@ const config: Config = {
           items: [
             {
               label: 'How to Start', // replace with title of the button thing
-              to: '/docs/Requirements/intro', // path to the doc
+              to: '/docs/How-To-Start/intro', // path to the doc
             },
             {
               label: 'Tutorial', // replace with title of the button thing
-              to: '/docs/Tutorial/intro', // path to the doc
+              to: '/docs/Tutorials/intro', // path to the doc
             },
           ],
         },

@@ -75,7 +75,6 @@ const config: Config = {
         },
         {
           href: 'https://github.com/Overlord-Runt/Variant', // repo link
-          label: ' ',
           position: 'right',
           className: 'header-github-link', // Custom Class
           'aria-label': 'GitHub repository',

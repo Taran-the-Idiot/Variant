@@ -13,21 +13,21 @@ export default function NotFoundContent({className}: Props): ReactNode {
             <Translate
               id="theme.NotFound.title"
               description="The title of the 404 page">
-              Page Not Found
+              404: Page Not Found
             </Translate>
           </Heading>
           <p>
             <Translate
               id="theme.NotFound.p1"
               description="The first paragraph of the 404 page">
-              404: We could not find what you were looking for.
+              We could not find what you were looking for.
             </Translate>
           </p>
           <p>
             <Translate
               id="theme.NotFound.p2"
               description="The 2nd paragraph of the 404 page">
-              Were you trying to look for something else? <a href="/">Go home</a>.
+              Were you trying to look for something else?
             </Translate>
           </p>
         </div>

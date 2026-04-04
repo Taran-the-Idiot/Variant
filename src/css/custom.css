@@ -9,8 +9,8 @@
 .header-github-link:before {
   content: '';
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   background-size: cover;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3 the-github-svg-path %3C/svg%3E");
 }

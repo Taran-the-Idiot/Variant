@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Variant',
-  tagline: 'YSWS where you make your own custom Keyboard Keycaps!',
+  tagline: 'Make a hardware project with a gimmick, get funding to make it!',
   favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -87,7 +87,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Requirements', // replace with title of the button thing
+              label: 'How to Start', // replace with title of the button thing
               to: '/docs/Requirements/intro', // path to the doc
             },
             {
@@ -97,23 +97,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'Acknowledgement Of Country',
-          items: [
-            {
-              html: 'We acknowledge and pay respect to the Traditional Owners of the land on which this site was built, the Darug people, and pay our respects to the Elders past, present and emerging. And to the youth working with us today',
-            },
-          ],
-        },
-        {
           title: 'Community',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Overlord-Runt/Hack-Caps',  // repo link
+              href: 'https://github.com/Overlord-Runt/Variant',  // repo link
             },
             {
               label: 'Slack',
-              href: 'https://app.slack.com/client/T0266FRGM/C08913QV7S7',
+              href: 'https://hackclub.enterprise.slack.com/archives/C0ANNE0TN7J',
             },
           ],
         },

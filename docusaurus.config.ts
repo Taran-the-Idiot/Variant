@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Hack Caps',
+  title: 'Variant',
   tagline: 'YSWS where you make your own custom Keyboard Keycaps!',
   favicon: 'img/favicon.png',
 
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://hackcaps.taranium.xyz',
+  url: 'https://variant.taranium.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/', // like if you want this on a path instead of a subdomain/apex domain
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Overlord-Runt', // Usually your GitHub org/user name.
-  projectName: 'Hack-Caps', // Usually your repo name.
+  organizationName: 'Taran-the-Idiot', // Usually your GitHub org/user name.
+  projectName: 'Variant', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,7 +55,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/preview.jpg',
     navbar: {
-      title: 'Hack Caps', // title replace with your site name
+      title: 'Variant', // title replace with your site name
       logo: {
         alt: 'Hack Caps Logo',
         src: 'img/hkcps.png',
@@ -74,7 +74,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/Overlord-Runt/Hack-Caps', // repo link
+          href: 'https://github.com/Overlord-Runt/Variant', // repo link
           label: 'GitHub',
           position: 'right',
         },

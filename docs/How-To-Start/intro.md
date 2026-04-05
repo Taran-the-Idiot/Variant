@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: how-to-start
 ---
 
 # Variant

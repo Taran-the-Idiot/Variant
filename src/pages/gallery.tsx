@@ -146,7 +146,7 @@ export default function GalleryPage() {
 
 	useEffect(() => {
 		if (!airtableBaseId || !airtableTableName || !airtableApiToken) {
-			setError('Set AIRTABLE_BASE_ID, AIRTABLE_TABLE_NAME, and AIRTABLE_API_TOKEN in your Docusaurus config.');
+			setError('For admin: Set AIRTABLE_BASE_ID, AIRTABLE_TABLE_NAME, and AIRTABLE_API_TOKEN');
 			setLoading(false);
 			return;
 		}
@@ -220,12 +220,11 @@ export default function GalleryPage() {
 			<main className={styles.page}>
 				<section className={styles.hero}>
 					<div className={styles.heroInner}>
-						<p className={styles.kicker}>Project Gallery</p>
 						<Heading as="h1" className={styles.title}>
-							Blocks pulled straight from Airtable
+							The Gallery!
 						</Heading>
 						<p className={styles.subtitle}>
-							Each project appears as a card with a cover image, title, GitHub repo link, and live demo link.
+                            Here are some projects made by the community! Take a scroll and check them out!
 						</p>
 					</div>
 				</section>

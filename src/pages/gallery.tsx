@@ -111,7 +111,7 @@ function GalleryCard({project}: {project: ProjectCard}) {
 						href={project.githubUrl}
 						target="_blank"
 						rel="noopener noreferrer">
-						GitHub repo
+						Repo
 					</a>
 					<a
 						className={clsx('button button--primary button--sm', styles.actionButton)}

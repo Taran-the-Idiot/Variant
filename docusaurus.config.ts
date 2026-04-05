@@ -86,7 +86,7 @@ const config: Config = {
         },
         {to: '/gallery', label: 'Gallery', position: 'left'}, // copy for new page thingies
         {
-          href: 'https://github.com/Overlord-Runt/Variant', // repo link
+          href: 'https://github.com/Taran-the-Idiot/Variant', // repo link
           position: 'right',
           className: 'header-github-link', // Custom Class
           'aria-label': 'GitHub repository',
@@ -114,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Overlord-Runt/Variant',  // repo link
+              href: 'https://github.com/Taran-the-Idiot/Variant',  // repo link
             },
             {
               label: 'Slack',
@@ -123,7 +123,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Made by @Overlord Runt // Taran The Idiot. Built with Docusaurus.`,
+      copyright: `Made by Taran The Idiot. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

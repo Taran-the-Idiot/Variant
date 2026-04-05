@@ -25,6 +25,17 @@ const config: Config = {
   organizationName: 'Taran-the-Idiot', // Usually your GitHub org/user name.
   projectName: 'Variant', // Usually your repo name.
 
+  customFields: {
+    airtableBaseId: process.env.AIRTABLE_BASE_ID,
+    airtableTableName: process.env.AIRTABLE_TABLE_NAME ?? 'Projects',
+    airtableApiToken: process.env.AIRTABLE_API_TOKEN,
+    airtableViewName: process.env.AIRTABLE_VIEW_NAME,
+    airtableTitleField: process.env.AIRTABLE_TITLE_FIELD ?? 'Title',
+    airtableCoverField: process.env.AIRTABLE_COVER_FIELD ?? 'Cover image',
+    airtableGithubField: process.env.AIRTABLE_GITHUB_FIELD ?? 'GitHub repo',
+    airtableDemoField: process.env.AIRTABLE_DEMO_FIELD ?? 'Demo',
+  },
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 

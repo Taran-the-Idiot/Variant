@@ -39,3 +39,18 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Airtable Gallery
+
+The gallery page at `/gallery` reads project rows from Airtable. Set these environment variables before running or building the site:
+
+- `AIRTABLE_BASE_ID`
+- `AIRTABLE_TABLE_NAME` defaults to `Projects`
+- `AIRTABLE_API_TOKEN`
+- `AIRTABLE_VIEW_NAME` optional
+- `AIRTABLE_TITLE_FIELD` defaults to `Title`
+- `AIRTABLE_COVER_FIELD` defaults to `Cover image`
+- `AIRTABLE_GITHUB_FIELD` defaults to `GitHub repo`
+- `AIRTABLE_DEMO_FIELD` defaults to `Demo`
+
+Each record should include a cover image, a GitHub repo URL, and a demo URL. The current implementation fetches Airtable in the browser, so use a read-only token for that base.

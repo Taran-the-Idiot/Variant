@@ -11,6 +11,8 @@ jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,6 +26,15 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+        env:
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+          AIRTABLE_TABLE_NAME: ${{ secrets.AIRTABLE_TABLE_NAME }}
+          AIRTABLE_API_TOKEN: ${{ secrets.AIRTABLE_API_TOKEN }}
+          AIRTABLE_VIEW_NAME: ${{ secrets.AIRTABLE_VIEW_NAME }}
+          AIRTABLE_TITLE_FIELD: ${{ secrets.AIRTABLE_TITLE_FIELD }}
+          AIRTABLE_COVER_FIELD: ${{ secrets.AIRTABLE_COVER_FIELD }}
+          AIRTABLE_GITHUB_FIELD: ${{ secrets.AIRTABLE_GITHUB_FIELD }}
+          AIRTABLE_DEMO_FIELD: ${{ secrets.AIRTABLE_DEMO_FIELD }}
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3

@@ -73,6 +73,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorials',
         },
+        {to: '/gallery', label: 'Gallery', position: 'left'}, // copy for new page thingies
         {
           href: 'https://github.com/Overlord-Runt/Variant', // repo link
           position: 'right',

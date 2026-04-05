@@ -42,7 +42,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
   gap: 1.25rem;
 }
 
@@ -119,5 +119,10 @@
   height: 90vw;
   object-fit: cover;
   display: block;
-}
+ }
+ .grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(260px, 1fr));
+  gap: 1.25rem;
+ }
 }

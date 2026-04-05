@@ -89,7 +89,7 @@
 }
 
 .actionButton {
-  flex: 1 1 10rem;
+  flex: 1 1 5rem;
   justify-content: center;
 }
 
@@ -114,4 +114,10 @@
   .content {
     padding-bottom: 3.5rem;
   }
+  .image {
+  width: auto;
+  height: 90vw;
+  object-fit: cover;
+  display: block;
+}
 }

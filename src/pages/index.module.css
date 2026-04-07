@@ -8,6 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: red;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +21,72 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.ideaSection {
+  padding: 4rem 0 1rem;
+}
+
+.ideaCard {
+  border-radius: 1.5rem;
+  padding: 2rem;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.88));
+  color: var(--ifm-color-white);
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ideaEyebrow {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ideaTitle {
+  margin-bottom: 0.5rem;
+}
+
+.ideaCopy {
+  margin-bottom: 1.5rem;
+  max-width: 50rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.ideaOutput {
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ideaOutputTitle {
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-white);
+}
+
+.ideaOutputCopy {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.ideaActions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .ideaSection {
+    padding-top: 2.5rem;
+  }
+
+  .ideaCard {
+    padding: 1.5rem;
+  }
 }

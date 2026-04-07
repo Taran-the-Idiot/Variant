@@ -31,7 +31,7 @@
   border-radius: 1.5rem;
   padding: 2rem;
   background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.88));
-  color: var(--ifm-color-white);
+  color: var(--ifm-color-emphasis-800);
   box-shadow: 0 24px 70px rgba(15, 23, 42, 0.28);
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
@@ -55,7 +55,7 @@
 .ideaCopy {
   margin-bottom: 1.5rem;
   max-width: 50rem;
-  color: rgba(255, 255, 255, 0.82);
+  color: var(--ifm-color-emphasis-800);
 }
 
 .ideaOutput {
@@ -67,12 +67,12 @@
 
 .ideaOutputTitle {
   margin-bottom: 0.5rem;
-  color: var(--ifm-color-white);
+  color: var(--ifm-color-emphasis-800);
 }
 
 .ideaOutputCopy {
   margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.84);
+  color: var(--ifm-color-emphasis-800);
 }
 
 .ideaActions {

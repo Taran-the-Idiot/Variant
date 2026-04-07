@@ -30,9 +30,8 @@
 .ideaCard {
   border-radius: 1.5rem;
   padding: 2rem;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.88));
+  background: var(--ifm-color-box-background);
   color: var(--ifm-color-emphasis-800);
-  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.28);
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -41,7 +40,8 @@
   margin-bottom: 0.75rem;
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--ifm-color-box-highlight);
+  color: var(--ifm-color-emphasis-800);
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -50,6 +50,7 @@
 
 .ideaTitle {
   margin-bottom: 0.5rem;
+  color: var(--ifm-color-emphasis-800);
 }
 
 .ideaCopy {
@@ -61,7 +62,8 @@
 .ideaOutput {
   padding: 1.5rem;
   border-radius: 1.25rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--ifm-color-box-highlight);
+  color: var(--ifm-color-emphasis-800);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 

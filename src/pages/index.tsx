@@ -148,8 +148,8 @@ export default function Home(): ReactNode {
       description="Make a hardware project with a gimmick, get funding to make it!">
       <HomepageHeader />
       <main>
-        <IdeaGenerator />
         <HomepageFeatures />
+        <IdeaGenerator />
       </main>
     </Layout>
   );

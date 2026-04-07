@@ -1,79 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 
-
-# ok how do i start
-First, open up your CAD software of choice and create a sketch on the bottom plane. <br/>
-
-Next, you're going to make the bottom face of your keycap. <br/>
-
-Most MX-compatable keycaps use bottom dimensions no bigger than **18mm x 18mm**, so we will be using that as well! Go to the "Create" section of the toolbar and select the Rectangle tool. You can use any of the three rectangle tools, but I personally prefer **Center Rectangle** to keep things centered around the origin. <br/>
-
-Next, draw a rectangle with **18mm x 18mm** dimensions. You can do this while drawing the rectangle by typing in the numbers and using Tab to switch between side dimensions, or use the **Dimensions** tool by clicking D, then clicking on the sides of the drawn rectangle.
-
-![rectangle](https://github.com/user-attachments/assets/15b70d22-7618-4de3-a63d-14bf2951b6fc)
-
-We will also be adding a fillet to the corners of this profile, since a pointy square honestly looks *pretty ugly* <br/>
-To do this, click on the **Fillet** tool, then click on two touching sides of the square to make a rounded corner, also called a fillet! I used 2mm as the radius, but the choice is up to you! <br/>
-
-![fillets](https://github.com/user-attachments/assets/a2673334-2ae0-403b-9f2c-3880e932e679)
-
-After you have your base, click "Finish Sketch"! Once we do this, we should have a 18mm x 18mm square sketch with rounded corners. <br/>
-
-![rounded rectangle sketch](https://github.com/user-attachments/assets/ae495a99-a563-4c62-a017-38c8bf9e78a7)
-
-We will be using the **Loft** tool to create the general shape of the keycap. This tool essentially connects two sketch profiles that are on different planes by making a smooth transition between the two profiles. <br/>
-
-![lofty lofty](https://github.com/user-attachments/assets/fb66b0c1-bf00-41c3-b4c7-2ee5e34f3634)
-
-When you look at a regular keycap, you'll typically see the keycap *taper*, or get smaller, near the top. To mimic this shape, we will be using the **Loft** tool alongside a smaller sketch profile to create the shape of the keycap. <br/>
-
-However, to first do this, we need a new plane to make our sketch on! This can be easily done by using the **Offset Plane** Construction tool! As the name implies, this tool makes a new plane to draw sketches on that is *offset*, or extended from, from the original plane. <br/>
-
-To make our new and shiny plane, select the **Offset Plane** tool under Construction and click on the square sketch as our plane. Then, drag the arrow up and down to adjust the height of the plane. <br/>
-We will be using 10mm for now! Keycap height varies, but most non-low profile caps are around the ~9-10mm range. <br/>
-
-![offset plane](https://github.com/user-attachments/assets/2f4a3711-ddf7-431b-8fe9-30a79e9636ff)
-
-Once we have our plane, select "OK". <br/>
-
-Now that we have our plane, we can make our second sketch required for the Loft! Select the Sketch tool and the newly created plane to create a new sketch on the plane. <br/>
-From here, there are many ways to approach making the top profile. Due to the simplicity of the model, we can get away with using a regular old rectangle or circle as our top profile. <br/>
-> (I'll get into my own preferred method involving my goat later in the guide :3) <br/>
-
-To make a top profile, draw a circle or rectangle on the sketch plane. The position can vary depending on your preference, but for the sake of the guide, we will be centering the shape on the origin. Set the shape to 15mm on each side or in diameter and click "Finish Sketch".
-
-![corcle](https://github.com/user-attachments/assets/9b2eece7-a267-484e-b585-7edc089f7fc3)
-
-Once we do that, we should have two sketch different sketch profiles that look like this:
-
-![ready to loft sir](https://github.com/user-attachments/assets/9cf6d298-0ea9-4171-92a3-71c14c0e6c51)
-
-Now, we can use Loft to make our keycap! Select **Loft** under Create, then click on the two sketch profiles. Once we do that, click "OK" to create the body.
-
-![we have loft off we have a loft off](https://github.com/user-attachments/assets/8591a956-f56d-4f3a-b5c9-31f0e061b962)
-
-We now have the general shape of our keycap, but currently it's COMPLETELY solid <br/>
-
-However, we can fix that by using the **Shell** Command! This command essentially hollows out a solid with an opening, using a specified wall thickness and a selected face as the opening. Almost all keycaps have an opening on the bottom, so for the Shell command, we will be selecting the bottom face of the solid with the wall thickness set to 1mm.
-
-![shellcommand](https://github.com/user-attachments/assets/e1961256-24fe-443d-b0f1-73947f22afe6)
-
-This should result in our keycap having a large opening in the bottom! <br/>
-
-We now have an opening, but if we were to print this out and slap it onto a switch, it wouldn't stay on for long... <br/>
-This is because there is no feature to hold the switches' *stem*, or the plus-shaped bit poking out that is pressed! <br/>
-
-To do this, we can make a new sketch in the inside of the keycap! Select the bottom side of the hollowed-out keycap as shown, and create a sketch.
-
-![new sketch](https://github.com/user-attachments/assets/b8b73772-edd3-44f0-ad89-9b89acfee1fd)
-
-
-
-
-
-## EXTRAS!!!!! (custom encoder knob!)
+# EXTRAS!!!!! (custom encoder knob!)
 got my hackpad parts here and noticed that the encoders were pretty cool so heres an extra tutorial for custom knobs <br/>
 
 I'll be using the rotary encoders that come in with the Hackpad Kit (EC11 rotary encoder from my research, don't quote me on that), along with a pair of calipers to get the measurements. If you search up the encoder you have, you can also find the dimensions there. <br/>
@@ -137,7 +66,7 @@ Lastly, we can finish up the knob by adding a quick chamfer to the top. Rotate t
 
 Once you do that, you're done with your knob! Go ahead and gawk once again in amazement! <br/>
 
-### extra extra stuff (knob customization)
+## extra extra stuff (knob customization)
 You can easily apply some of the techniques from the custom keycaps to the knob, such as applying custom art or text on your knob! <br/>
 Here is a small list of techniques I use to customize my knobs a little more:
 * When extruding the knob, you can adjust something called the **Taper Angle**, which allows you to create knobs that get smaller or bigger as you reach the top! This allows you to make some pretty unique knobs, such as a professional looking volume knob or a big and goofy knob!

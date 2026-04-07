@@ -30,7 +30,7 @@
 .ideaCard {
   border-radius: 1.5rem;
   padding: 2rem;
-  background: var(--ifm-color-emphasis-500);
+  background: var(--ifm-color-emphasis-400);
   color: var(--ifm-color-emphasis-800);
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
@@ -40,7 +40,7 @@
   margin-bottom: 0.75rem;
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
-  background: var(--ifm-color-emphasis-100);
+  background: var(--ifm-color-emphasis-200);
   color: var(--ifm-color-emphasis-800);
   font-size: 0.8rem;
   font-weight: 700;
@@ -62,7 +62,7 @@
 .ideaOutput {
   padding: 1.5rem;
   border-radius: 1.25rem;
-  background: var(--ifm-color-emphasis-100);
+  background: var(--ifm-color-emphasis-200);
   color: var(--ifm-color-emphasis-800);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }

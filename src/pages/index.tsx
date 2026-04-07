@@ -47,7 +47,7 @@ const ideaPool: Idea[] = [
   {
     title: 'A badge holder that projects a tiny status display',
     description:
-      'Give it an e-ink screen, tilt sensor, or physical flaps so the badge can change mood.',
+      'Give it an oled screen, tilt sensor, or physical flaps so the badge can change mood.',
   },
   {
     title: 'A handheld game device with swappable faceplates',

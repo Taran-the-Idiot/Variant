@@ -1,6 +1,6 @@
 .page {
   min-height: calc(100vh - var(--ifm-navbar-height));
-  background: rgb(255, 255, 255);
+  background: var(--ifm-background-color);
 }
 
 .hero {

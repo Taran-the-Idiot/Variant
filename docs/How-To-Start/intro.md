@@ -23,5 +23,11 @@ In order to qualify for funding you need the following things:
 
 ## How do I get there?
 
+There are heaps of guides available all throughout the internet on various topics and they do a great job at teaching you how to use certain software or how to do certain things. Youtube is your best friend when making hardware. There are also a lot of guides available in the [Guides Tab](/docs/Tutorials/intro.md) for you to read through. 
 
+Before you do all that though, your first step is to make a github repo and start journalling your ideas and your project.
+
+I reccommend writing down what you want to make, and then researching and brainstorming ideas of how you will accomplish it in your journal.
+
+Another good resource are online forums, places like the Hack Club slack or Reddit are good places to find help on your projects. I reccommend joining the #variant channel on slack. There you will find heaps of people making a unique project just like you and you can learn from them and ask for help there.
 

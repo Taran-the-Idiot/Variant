@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Journals
 
-You must journal your time **AS YOU MAKE YOUR CAPS.** 
+You must journal your time **as you make your projects.** 
 
-You cannot retroactively journal these.
+You cannot retroactively journal these.(well you can but it will be really hard to do)
 
 ## What do I need for the journal to count?
 
@@ -27,6 +27,6 @@ Talk about how you like it, how you like the goofiness of it, or how it goes wel
 
 ## How do I structure my journal?
 
-Your journal should be called `JOURNAL.md` and every entry should include the date as a title. You can then make your journal entry for the day. Include images that document what you did and text explaining you thought process, what you did, a fun joke, anything!
+Your journal should be called `JOURNAL.md` and every entry should include the date as a title. You can then make your journal entry for the day. Include images that document what you did and text explaining you thought process, what you did, a fun joke, anything! This file is a way for you to keep track of what you 
 
 

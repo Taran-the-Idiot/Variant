@@ -1,3 +1,5 @@
 node_modules
 build
 docs/Tutorials/Markdown stuffs/.DS_Store
+*.DS_Store
+*/.DS_Store

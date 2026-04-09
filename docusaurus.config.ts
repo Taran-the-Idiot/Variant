@@ -100,8 +100,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'How to Start', // replace with title of the button thing
-              to: '/docs/How-To-Start/intro', // path to the doc
+              label: 'Getting Started', // replace with title of the button thing
+              to: '/docs/getting-started/intro', // path to the doc
             },
             {
               label: 'Tutorials', // replace with title of the button thing

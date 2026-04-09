@@ -27,7 +27,22 @@ There are heaps of guides available all throughout the internet on various topic
 
 Before you do all that though, your first step is to make a github repo and start journalling your ideas and your project.
 
-I reccommend writing down what you want to make, and then researching and brainstorming ideas of how you will accomplish it in your journal.
+I reccommend writing down what you want to make, and then researching and brainstorming ideas of how you will accomplish it in your journal. After that start trying to flesh out what your project will look like and make designs in CAD.
 
-Another good resource are online forums, places like the Hack Club slack or Reddit are good places to find help on your projects. I reccommend joining the #variant channel on slack. There you will find heaps of people making a unique project just like you and you can learn from them and ask for help there.
+A good resource to get help is online forums, places like the Hack Club slack or Reddit are good places to find help on your projects. I reccommend joining the #variant channel on slack. There you will find heaps of people making a unique project just like you and you can learn from them and ask for help there.
+
+
+## The Tier System
+
+The amount of funding you get is dependant on the project you make and the quality of it. Generally you can expect projects to be split across the following tiers:
+
+Tier 1(5-15 hours): Macropads, CAD projects, Small PCBs - $50
+
+Tier 2(15-50 hours): Keyboards, DIY Game Consoles, Dev Boards - $150
+
+Tier 3(50+): 3D Printers, Custom Battlebots, Custom CNCs - $300
+
+Please note that these tiers are guidelines. The hour counts and $ amounts are just recommendations and general averages. Spending more or less time on your project does not affect whether it is accepted. 
+
+For the funding, even though there are certain amounts we are willing to give, please try to find and use cheaper parts where possible. Every dollar you save is a dollar that can be spent helping more teens and collectively it makes a big difference in making these programs sustainable for everyone.
 

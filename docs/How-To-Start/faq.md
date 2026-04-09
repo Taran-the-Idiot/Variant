@@ -14,6 +14,14 @@ Hack Club is a 501(c)(3) non-profit organisation that has set its mission to hel
 Variant is a YSWS(you ship, we ship) program where you make a hardware project that has a weird gimmick to it, and we send you funding to make the project + a cool merch pack
 
 
-## How Much funding can I get?
+## How much funding can I get?
 
-The sky is the limit with funding
+The amount of funding you get is dependant on the project you make and the quality of it. Generally you can expect projects to be split across the following tiers:
+
+Tier 1(5-15 hours): Macropads, CAD projects, Small PCBs - $50
+
+Tier 2(15-50 hours): Keyboards, DIY Game Consoles, Dev Boards - $150
+
+Tier 3(50+): 3D Printers, Custom Battlebots, Custom CNCs - $300
+
+Please note that these tiers are guidelines. The hour counts and $ amounts are just recommendations and general averages. Spending more or less time on your project does not affect whether it is accepted. 

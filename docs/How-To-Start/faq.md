@@ -38,3 +38,24 @@ If you are unsure on what your project would qualify as, Ask in the #variant cha
 
 No! You can have a project that is really complex and costs $20 that goes into tier 3. The tiers are quality based and if you or a person reviewing your project believes your project deserves a different tier, you can change the tier!
 
+## Are group projects allowed?
+
+Yes groups are allowed! However:
+
+- Each person must individually journal what they did
+- You can only get **one grant per project**, not per person
+- You can only get one merch pack for the group
+
+There is no cap on how many people can work on a single project however I advise against it for this ysws.
+
+# Can I submit an existing project?
+
+Yes! You are perfectly fine to submit existing projects to this YSWS, however:
+
+- The project needs to have everything journalled from the start of you making it
+- The project cannot have been submitted to a different YSWS in the past.
+
+
+## I have other questions!
+
+Ask in the #variant channel on the Hack Club slack and someone can help answer!

@@ -7,18 +7,19 @@ sidebar_position: 3
 
 Hello! This is Anicetus, and I'm writing this guide because I've been seeing a lot of ugly readmes out there. This guide assumes you know most of the features of Markdown, but that you haven't learned how to make it look _good_. If you're a noob to Markdown, check out [Taran's guide](https://highway.hackclub.com/guides/markdown)! For example, an ugly readme might look like this:
 
-<sub>hehe picking on taran today</sub>
+##### hehe picking on taran today
 
 
-<kbd> <img width="940" alt="Ugly Readme" src="https://github.com/user-attachments/assets/bd68758e-3741-48ad-944e-81b34e5bcd3c" style="border: 2px solid grey;"/> </kbd>
+![ugly readme](https://github.com/user-attachments/assets/bd68758e-3741-48ad-944e-81b34e5bcd3c)
+
+
 
 
 _Or,_ if the author put in more effort, it could look like this:
 
+![beautiful readme](https://github.com/user-attachments/assets/b6705aa0-baec-45f5-89d6-5de604870c84)
 
 
-
-<kbd> <img width="940" alt="Beautiful Readme" src="https://github.com/user-attachments/assets/b6705aa0-baec-45f5-89d6-5de604870c84" /> </kbd>
 
 
 
@@ -42,13 +43,17 @@ Pictures also lighten up an area that might otherwise be dominated by text. Nobo
 
 If you really want to lighten stuff up, add a gif! GitHub Flavored Markdown supports it.
 
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJ6bXJ0emVheXoxdGw5b2Y5Mm8xNWFka3kxemc3Zjk3NHo4MHpuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCPLAT9ZbS4VBHa/giphy.gif" width="25%" alt="Yes... maybe... yes... yes... yes... yes... NO!!"/>
+
+![gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJ6bXJ0emVheXoxdGw5b2Y5Mm8xNWFka3kxemc3Zjk3NHo4MHpuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCPLAT9ZbS4VBHa/giphy.gif)
+
 
 ### 2. How to Use Headers (like this one!)
 
 Markdown supports a bunch of header sizes, but the only ones basically anybody uses are H1, H2, H3, and maybe H4. Here's what they look like:
 
-<img width="914" alt="image" src="https://github.com/user-attachments/assets/05239ea4-7432-4f58-99d5-ed817a711390" />
+
+![image](https://github.com/user-attachments/assets/05239ea4-7432-4f58-99d5-ed817a711390)
+
 
 H4 and smaller are really just excuses to be able to link to a particular part of a page, since you can get the same results just by bolding text.
 
@@ -58,7 +63,9 @@ You have to be careful, however, not to use headers too often. If you have secti
 
 Sometimes, when you have long paragraphs and maybe lengthy header names, you'll have text (and images too!) that stretch to the far right of the screen. This creates a block-like feeling, which can feel claustrophobic and tight. An easy way to break this up is to have things like lists and tables. Observe:
 
-<kbd> <img width="826" alt="image" src="https://github.com/user-attachments/assets/6635ff72-8e63-4338-954c-a7c0b59941df" /> </kbd>
+
+![image](https://github.com/user-attachments/assets/6635ff72-8e63-4338-954c-a7c0b59941df)
+
 
 As you can see, that was a giant block of text broken up by a helpful list.
 

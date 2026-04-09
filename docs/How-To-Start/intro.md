@@ -14,22 +14,34 @@ Your gimmick needs to be unique so you can't make things like a keyboard that is
 
 ## Designing Your Project
 
-In order to qualify for funding you need the following things:
+A working project needs the following things:
 
-- A full assembly designed in CAD(computer aided design) software
 - A PCB or wiring diagram with your circuitry
+- A full assembly/model designed in CAD(computer aided design) software
 - Mock firmware for your project - this doesnt need to 100% work, just needs to have an attempt made at writing it
 
+These are things that show other people how you project works and how they can make it themselves.
 
-## How do I get there?
+You should try to complete these in the order given.
 
-There are heaps of guides available all throughout the internet on various topics and they do a great job at teaching you how to use certain software or how to do certain things. Youtube is your best friend when making hardware. There are also a lot of guides available in the [Guides Tab](/docs/Tutorials/intro.md) for you to read through. 
+### How do I get there?
 
-Before you do all that though, your first step is to make a github repo and start journalling your ideas and your project.
+Your first step is to make a github repo and start journalling your ideas and your project.
 
-I reccommend writing down what you want to make, and then researching and brainstorming ideas of how you will accomplish it in your journal. After that start trying to flesh out what your project will look like and make designs in CAD.
+I reccommend writing down what you want to make, and then researching and brainstorming ideas of how you will accomplish it in your journal. 
 
-A good resource to get help is online forums, places like the Hack Club slack or Reddit are good places to find help on your projects. I reccommend joining the #variant channel on slack. There you will find heaps of people making a unique project just like you and you can learn from them and ask for help there.
+Some things to consider while designing:
+1. What do I need to make?
+2. What are some problems that might arise?
+3. How can I fix these problems?
+4. Does this need to be solved later(some solutions require context of what currently exists)
+
+After that, start trying to flesh out what your project will look like and make designs in CAD.
+
+If you need help from a human, a good place to go to is online forums, places like the Hack Club slack or Reddit are good places to find help on your projects. I reccommend joining the #variant channel on slack. There you will find heaps of people making a unique project just like you and you can learn from them and ask for help there.
+
+Otherwise there are heaps of guides available all throughout the internet on various topics and they do a great job at teaching you how to use certain software or how to do certain things. Youtube is your best friend when making hardware. There are also a lot of guides available in the [Guides Tab](/docs/Tutorials/intro.md) for you to read through. 
+
 
 
 ## The Tier System

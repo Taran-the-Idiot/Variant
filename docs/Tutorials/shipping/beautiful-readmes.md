@@ -9,21 +9,19 @@ Hello! This is Anicetus, and I'm writing this guide because I've been seeing a l
 
 <sub>hehe picking on taran today</sub>
 
-<br>
-</br>
+
 <kbd> <img width="940" alt="Ugly Readme" src="https://github.com/user-attachments/assets/bd68758e-3741-48ad-944e-81b34e5bcd3c" style="border: 2px solid grey;"/> </kbd>
-<br>
-</br>
+
 
 _Or,_ if the author put in more effort, it could look like this:
 
-<br>
-</br>
+
+
 
 <kbd> <img width="940" alt="Beautiful Readme" src="https://github.com/user-attachments/assets/b6705aa0-baec-45f5-89d6-5de604870c84" /> </kbd>
 
-<br>
-</br>
+
+
 
 And after reading this guide, your readmes will start to look more like the second image.
 

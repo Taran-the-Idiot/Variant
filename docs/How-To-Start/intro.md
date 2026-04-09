@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Variant
+# Overview
 
 Welcome to Variant! The ysws where you make a hardware project and give it a unique gimmick! After that get funding to make it real and get cool merch on the side!
 

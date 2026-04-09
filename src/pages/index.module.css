@@ -31,7 +31,7 @@
   border-radius: 1.5rem;
   padding: 2rem;
   background: var(--idea-card);
-  color: var(--ifm-color-emphasis-800);
+  color: var(--ifm-color-emphasis-1000);
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -41,7 +41,7 @@
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
   background: var(--idea-highlight);
-  color: var(--ifm-color-emphasis-800);
+  color: var(--ifm-color-emphasis-1000);
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -50,31 +50,31 @@
 
 .ideaTitle {
   margin-bottom: 0.5rem;
-  color: var(--ifm-color-emphasis-800);
+  color: var(--ifm-color-emphasis-1000);
 }
 
 .ideaCopy {
   margin-bottom: 1.5rem;
   max-width: 50rem;
-  color: var(--ifm-color-emphasis-800);
+  color: var(--ifm-color-emphasis-1000);
 }
 
 .ideaOutput {
   padding: 1.5rem;
   border-radius: 1.25rem;
   background: var(--idea-highlight);
-  color: var(--ifm-color-emphasis-800);
+  color: var(--ifm-color-emphasis-1000);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .ideaOutputTitle {
   margin-bottom: 0.5rem;
-  color: var(--ifm-color-emphasis-800);
+  color: var(--ifm-color-emphasis-1000);
 }
 
 .ideaOutputCopy {
   margin-bottom: 0;
-  color: var(--ifm-color-emphasis-800);
+  color: var(--ifm-color-emphasis-1000);
 }
 
 .ideaActions {

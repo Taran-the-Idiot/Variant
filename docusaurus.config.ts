@@ -68,8 +68,8 @@ const config: Config = {
     navbar: {
       title: 'Variant', // title replace with your site name
       logo: {
-        alt: 'Hack Caps Logo',
-        src: 'img/hkcps.png',
+        alt: 'Variant Logo',
+        src: 'img/logo.png',
       },
       items: [
         {  // copy for new section thingies

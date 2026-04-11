@@ -55,6 +55,13 @@ Yes! You are perfectly fine to submit existing projects to this YSWS, however:
 - The project needs to have everything journalled from the start of you making it
 - The project cannot have been submitted to a different YSWS in the past.
 
+# Is $300 the max I can spend on my project?
+
+No! You can spend any amount of money on your projects, however the more money you ask for, the higher the expected quality bar is for your project.
+
+# Can I buy my parts now and get reimbursed later?
+
+This is complicated. I personally advise against getting a reimbursement because if your project gets rejected or the parts are deemed
 
 ## I have other questions!
 

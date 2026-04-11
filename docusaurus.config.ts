@@ -64,7 +64,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/preview.jpg',
+    image: 'img/social-card.png',
     navbar: {
       title: 'Variant', // title replace with your site name
       logo: {
@@ -76,7 +76,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'How-To-Start',
+          label: 'Getting Started',
         },
         {  // copy for new section thingies
           type: 'docSidebar',

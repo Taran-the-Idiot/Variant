@@ -14,34 +14,31 @@ type Idea = {
 
 const ideaPool: Idea[] = [
   {
-    title: 'A keyboard that folds into a travel case',
+    title: 'A keyboard that folds in half',
   },
   {
-    title: 'A macropad that drives a tiny rover',
+    title: 'A macropad that drives around',
   },
   {
-    title: 'A chocolate 3D printer with a temperature story',
+    title: 'A chocolate 3D printer',
   },
   {
-    title: 'A speaker that opens like a clamshell camera',
+    title: 'A keyboard that has individually modular keys',
   },
   {
-    title: 'A desk lamp that grows a mechanical halo',
+    title: 'A lamp that turns on when you stop moving',
   },
   {
-    title: 'A calculator that slides out into a mini workstation',
+    title: 'A calculator that requires you to solve a puzzle before it will work',
   },
   {
-    title: 'A badge holder that projects a tiny status display',
-  },
-  {
-    title: 'A handheld game device with swappable faceplates',
+    title: 'A handheld game device with swappable controller layouts',
   },
   {
     title: 'A clock that reveals the time with moving tiles',
   },
   {
-    title: 'A fan that unfolds into a wearable sculpture',
+    title: 'A 3D printer that moves the bed instead of the extruder',
   },
 ];
 

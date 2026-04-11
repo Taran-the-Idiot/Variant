@@ -106,7 +106,7 @@ function IdeaGenerator() {
           <div className={styles.ideaActions}>
             <button
               type="button"
-              style={{color: 'white', background: 'var(--ifm-color-primary-lightest)'}}
+              style={{color: 'white', background: 'var(--ifm-color-primary-lightest)', outlineColor: 'var(--ifm-color-primary-lightest)'}}
               className="button button--primary button--lg"
               onClick={() => setIdea((currentIdea) => pickRandomIdea(currentIdea.title))}>
               Generate another idea

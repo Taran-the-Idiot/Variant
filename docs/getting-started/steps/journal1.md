@@ -35,6 +35,7 @@ Your journal should be called `JOURNAL.md` and every entry should include the da
 
 This file is a way for you to keep track of what you have done and what you need to do. It also acts like documentation of how your project was built so other people can learn how you built it.(you might not think you are good enough for other people to learn off you but even the most basic beginner can come up with methods and ideas that the most seasoned veterans have never considered)
 
+[Here](https://github.com/Taran-the-Idiot/Fold-Board/blob/main/JOURNAL.MD) is an example of a journal.
 
 
 

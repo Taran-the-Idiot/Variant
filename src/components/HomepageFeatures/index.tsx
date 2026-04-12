@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Design it!',
-    Svg: '/img/repo.png',
+    Svg: '/img/model.png',
     description: (
       <>
         Follow our guides to design your project, and get help from the community if you need it!
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Make it Real!',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: '/img/build.png',
     description: (
       <>
         Get funding to build your project irl, then share it with the world when it's done!

@@ -31,7 +31,7 @@ html[data-theme='dark'] .header-github-link::before {
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #aec1e6;
+  --ifm-color-primary: #52668f;
   --ifm-color-primary-dark: #1a2a4a;
   --ifm-color-primary-darker: #15223a;
   --ifm-color-primary-darkest: #0f1a2a;

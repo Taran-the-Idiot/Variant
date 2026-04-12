@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Come up with an idea!',
-    Svg: '/img/design.png',
+    Svg: '/img/plan.png',
     description: (
       <>
         Think of a cool hardware project and give it a gimmick!

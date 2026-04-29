@@ -1,3 +1,5 @@
+> AI HAS BEEN USED IN THIS WEBSITE TO CREATE THE GALLERY AND THE IDEA GENERATOR, HOWEVER ALL STYLING AND CSS WAS REDONE BY HUMAN HANDS
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

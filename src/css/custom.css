@@ -3,7 +3,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@import 'font-awesome/css/font-awesome.min.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 .header-github-link:before {
@@ -15,10 +15,11 @@
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3 the-github-svg-path %3C/svg%3E");
 }
 
-/* Alternatively using FontAwesome */
+/* Alternatively using Font Awesome */
 .header-github-link::before {
-  content: "\f09b"; /* FontAwesome GitHub Icon */
-  font-family: FontAwesome;
+  content: "\f09b"; /* Font Awesome GitHub icon */
+  font-family: "Font Awesome 7 Brands";
+  font-weight: 400;
   font-size: 20px;
 }
 
